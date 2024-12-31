@@ -32,7 +32,7 @@
 .card__botoes {
     display: flex;
     justify-content: space-between;
-    margin: 0 2em;
+    margin: 0 1em;
 }
 
 .botoes {
