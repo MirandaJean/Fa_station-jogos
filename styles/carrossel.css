@@ -77,14 +77,13 @@
 }
 
 .botoes__item {
-    margin: 0 0.6em;
+    margin: 0 0.5em;
 }
 
 .botoes__ancora {
     background-color: var(--azul-escuro);
     color: var(--laranja);
-    padding: 1em 2.3em;
+    padding: 1.1em 2.3em;
     text-decoration: none;
-    text-align: center;
     font-weight: 700;
 }
