@@ -11,6 +11,10 @@
     --fonte-principal: "Poppins"
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
@@ -21,3 +25,4 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
