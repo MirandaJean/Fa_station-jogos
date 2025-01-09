@@ -78,9 +78,9 @@
 
 .descricao__titulo_playstation {
     color: var(--preto);
-    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: var(--branco);
-    font-size: 18px;
+    font-size: larger;
     font-family: fantasy;
     font-weight: 600;
     margin: 0.5em 0;
@@ -95,7 +95,7 @@ strong {
 }
 
 .descricao__imagem {
-    width: 42%;
+    width: 50%;
     border-radius: 16px;
 }
 
