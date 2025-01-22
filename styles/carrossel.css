@@ -59,6 +59,7 @@
 }
 
 .descricao__titulo {
+    margin-top: 1em;
     color: var(--laranja);
     font-size: 14px;
     width: 150%;
