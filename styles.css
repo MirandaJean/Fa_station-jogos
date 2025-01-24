@@ -13,14 +13,42 @@
 }
 
 body {
-    background-image: url(./img/Fundo\ playstation.webp);
+/*     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: 150%;
     background-repeat: no-repeat;
-    scroll-margin-block: initial;
+     */
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
 
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+:root {
+    --azul: #0089ad;
+    --azul-escuro: #1e5269;
+    --laranja: #ffbd59;
+    --fundo-cinza: #dededc;
+    --branco: #ffffff;
+    --preto: #000000;
+    --fonte-principal: "Poppins"
+}
+
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fundo {
+    background-image: url(./img/Fundo\ playstation.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 150%; 
+    background-repeat: no-repeat;
+}
