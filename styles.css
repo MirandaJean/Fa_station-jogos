@@ -16,6 +16,7 @@ body {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover; 
     background-size: 150%;
     background-repeat: no-repeat;
     font-family: var(--fonte-principal);
