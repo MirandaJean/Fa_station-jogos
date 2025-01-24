@@ -41,9 +41,10 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover; 
-/*     object-fit: cover;
+    background-size: 150%;
+    background: fixed;
+    bject-fit: cover;
     scroll-behavior: smooth;
     height: 100%;
-    width: 100% */
+    width: 100%
 }
