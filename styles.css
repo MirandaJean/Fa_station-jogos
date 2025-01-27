@@ -36,11 +36,10 @@ body {
     font-weight: 400;
 
     background-image: url(./img/Fundo\ playstation.webp);
-    background-size: cover;
+    background-size: 36em;
     background-position: center;
     background-attachment: scroll;  /* Evita o uso do fixed em mobile */
-  
-  
+    
 background-repeat: no-repeat;
 }
 
