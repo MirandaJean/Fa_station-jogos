@@ -36,7 +36,7 @@ body {
     font-weight: 400;
 }
 
-.fundo {
+/* .fundo {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
@@ -45,4 +45,18 @@ body {
     object-fit: cover;
     height: 100%;
     width: 100%
+} */
+
+.fundo {
+    overflow-y: scroll;
+    background-image: url(./img/Fundo\ playstation.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    object-fit: cover;
+}
+
+.fundo {
+    height: 1000px;
 }
