@@ -38,10 +38,20 @@ body {
 
 .fundo {
     background-image: url(./img/Fundo\ playstation.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 36em;
+    object-fit: cover;
+    height: 100%;
+    width: 100%
+}
+
+.fundo {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: 36em;
     object-fit: cover;
     height: 100%;
