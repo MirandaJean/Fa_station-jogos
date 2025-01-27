@@ -39,7 +39,7 @@ body {
 .fundo {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
-    background-attachment: local;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 150%;
     object-fit: cover;
