@@ -38,7 +38,7 @@ body {
     background-image: url(./img/Fundo\ playstation.webp);
     background-size: 36em;
     background-position: center;
-    background-attachment: local;  /* Evita o uso do fixed em mobile */
+    background-attachment: scroll;  /* Evita o uso do fixed em mobile */
     position: relative;
     
 background-repeat: no-repeat;
