@@ -37,12 +37,10 @@ body {
 }
 
 .fundo {
+    overflow-y: scroll;
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 150%;
-    overflow-y: scroll;
-    height: 100%;
-    width: 100%
 }
