@@ -27,7 +27,7 @@ body {
     overflow-y: scroll;
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-size: 150%;
 }
