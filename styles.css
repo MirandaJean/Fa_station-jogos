@@ -37,7 +37,6 @@ body {
 }
 
 .fundo {
-   position: absolute;
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: local;
