@@ -43,7 +43,5 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    height: 100%;
-    width: 100%
     scroll-behavior: smooth;
 }
