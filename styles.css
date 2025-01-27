@@ -41,6 +41,8 @@ body {
     background-repeat: no-repeat;
     background-size: 36em;
     object-fit: cover;
+    flex-wrap: nowrap;
+    
 }
 
 /* .fundo {
