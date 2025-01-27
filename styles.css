@@ -37,7 +37,7 @@ body {
 }
 
 .fundo {
-    overflow-y: scroll;
+    overflow-y: fixed;
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
