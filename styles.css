@@ -34,23 +34,15 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-
-    background-image: url(./img/Fundo\ playstation.webp);
-    background-size: 36em;
-    background-position: center;
-    background-attachment: scroll;  /* Evita o uso do fixed em mobile */
-    position: relative;
-    
-background-repeat: no-repeat;
 }
 
-/* .fundo {
+.fundo {
     background-image: url(./img/Fundo\ playstation.webp);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 36em;
+    background-size: 55em;
     object-fit: cover;
     height: 100%;
     width: 100%
-} */
+}
