@@ -30,9 +30,8 @@ body {
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 150%;
-    object-fit: cover;
 }
 
 .fundo {
-    height:800px;
+    height: 62.5em;
 }
