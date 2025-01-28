@@ -1,3 +1,4 @@
+
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--azul);
@@ -10,7 +11,7 @@
 
 .swiper-slide img {
     width: 100%;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .swiper-button-prev,
@@ -59,7 +60,6 @@
 }
 
 .descricao__titulo {
-    margin-top: 1em;
     color: var(--laranja);
     font-size: 14px;
     width: 150%;
@@ -82,9 +82,9 @@
 }
 
 .descricao__titulo_playstation_bot {
-    color: #04041f;
+    color: #c4edff;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #0f1cbf;
+    -webkit-text-stroke-color: #1e556e;
     font-size: larger;
     font-family: fantasy;
     font-weight: 600;
@@ -126,3 +126,4 @@ strong {
     text-decoration: none;
     font-weight: 700;
 }
+
