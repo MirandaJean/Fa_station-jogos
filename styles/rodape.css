@@ -4,6 +4,10 @@ hr {
     margin-top: 0.8em;
 }
 
+.rodape {
+    background-color: var(--branco);
+}
+
 .criador {
     text-decoration: none;
 }
