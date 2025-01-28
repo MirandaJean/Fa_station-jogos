@@ -2,6 +2,9 @@
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
 @import url(styles/topicos.css);
+@import url(styles/confeitaria.css);
+@import url(styles/rodape.css);
+
 :root {
     --azul: #0089ad;
     --azul-escuro: #1e5269;
