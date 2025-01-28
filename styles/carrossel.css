@@ -72,9 +72,9 @@
 }
 
 .descricao__titulo_playstation {
-    color: #04041f;
-    -webkit-text-stroke-width: .8px;
-    -webkit-text-stroke-color: #983535;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
     font-size: larger;
     font-family: fantasy;
     font-weight: 600;
@@ -82,9 +82,9 @@
 }
 
 .descricao__titulo_playstation_bot {
-    color: #c4edff;
+    color: #000000;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #1e556e;
+    -webkit-text-stroke-color: #ffffff;
     font-size: larger;
     font-family: fantasy;
     font-weight: 600;
