@@ -63,13 +63,13 @@
     color: var(--laranja);
     font-size: 14px;
     width: 150%;
+    margin-top: 1em;
 }
 
 .stars {
     width: 85%;
     margin-top: -2em;
     margin-bottom: -2em;
-    margin-top: 2em;
 }
 
 .descricao__titulo_playstation {
