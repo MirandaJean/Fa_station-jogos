@@ -1,0 +1,16 @@
+hr {
+    background-color: var(--azul-escuro);
+    padding: 0.08em;
+    margin-top: 0.8em;
+}
+
+.criador {
+    text-decoration: none;
+}
+
+.rodape__titulo {
+    padding: 0.3em 1em;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: var(--preto);
+}
