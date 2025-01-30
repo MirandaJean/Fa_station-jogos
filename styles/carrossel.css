@@ -83,9 +83,9 @@
 }
 
 .descricao__titulo_playstation_bot {
-    color: #000000;
+    color: #ffffff;
     -webkit-text-stroke-width: 0.7px;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-color: #000000;
     font-size: larger;
     font-family: fantasy;
     font-weight: 600;
