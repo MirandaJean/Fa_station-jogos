@@ -18,3 +18,52 @@ hr {
     font-weight: 700;
     color: var(--preto);
 }
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    hr {
+        padding: 0.5em;
+        margin-top: -1em;
+    }
+
+    .rodape {
+        display: flex;
+        margin-top: -1em;
+        padding: 2em;
+        justify-content: space-around;
+    }
+
+    .rodape__img-fundo {
+        background-image: url(../img/surra.gif);
+        background-repeat: no-repeat;
+        background-size: 32%;
+        background-position: bottom;
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .lista-rodape__titulo {
+        margin-bottom: 1em;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        color: var(--preto);
+    }
+
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+        margin-bottom: 15%;
+    }
+
+    .lista-rodape__link {
+        text-decoration: none;
+        color: var(--cinza);
+    }
+}
