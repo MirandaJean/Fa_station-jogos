@@ -1,122 +1,69 @@
-.header__menu-hamburger {
-    background-image: url(../img/botão\ menu.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
+hr {
+    background-color: var(--azul-escuro);
+    padding: 0.08em;
+    margin-top: 0.8em;
 }
 
-.header {
-    background-color: var(--azul);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+.rodape {
+    background-color: var(--branco);
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    padding: 0.4em;
-}
-
-.container_tamanho {
-    width: 44px;
-    height: 44px;
-    padding: 0.4em;
-}
-
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;
-}
-
-.container__botao:checked~.lista-menu {
-    display: block;
-}
-
-.lista-menu__titulo,
-.lista-menu__item {
-    padding: 1em;
-    background-color: var(--fundo-cinza)
-}
-
-.lista-menu__titulo {
-    color: var(--laranja);
-    font-weight: 700;
-}
-
-.lista-menu__link {
-    color: var(--azul);
-    text-transform: uppercase;
+.criador {
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
 }
 
-.container__botao {
-    display: none;
+.rodape__titulo {
+    padding: 0.3em 1em;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: var(--preto);
 }
 
-.container__titulo {
-    display: none;
-}
-
-.opções {
+.lista-rodape {
     display: none;
 }
 
 @media screen and (min-width: 1024px) {
 
-    .container__titulo,
-    .container__titulo--negrito {
-        font-weight: 700;
-        display: block;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 30px;
-        background: -webkit-linear-gradient(left, #ef1f1f 13%, #ffd500 88%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding-bottom: 2px;
+    hr {
+        padding: 0.5em;
+        margin-top: -1em;
     }
 
-    .opções {
+    .rodape {
         display: flex;
-        font-family: sans-serif;
-        font-weight: 700;
-        color: var(--laranja);
+        margin-top: -1em;
+        padding: 2em;
+        justify-content: space-around;
     }
 
-    .opções__item {
-        padding: 0 1em;
-        text-transform: uppercase;
+    .rodape__img-fundo {
+        background-image: url(../img/surra.gif);
+        background-repeat: no-repeat;
+        background-size: 32%;
+        background-position: bottom;
     }
 
-    .opções__link {
-        text-decoration: none;
-        color: var(--laranja);
-
-    }
-
-    .container__transparente {
-        display: none;
-    }
-
-    .header__menu-hamburger {
-        display: none;
-    }
-
-    .opções__botao:checked~.lista-menu {
+    .lista-rodape {
         display: block;
-        width: auto;
     }
 
-    .opções__botao {
-        display: none;
+    .lista-rodape__titulo {
+        margin-bottom: 1em;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        color: var(--preto);
     }
 
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+        margin-bottom: 15%;
+    }
+
+    .lista-rodape__link {
+        text-decoration: none;
+        color: var(--cinza);
+    }
 }
