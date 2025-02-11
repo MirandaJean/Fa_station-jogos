@@ -1,5 +1,5 @@
     .docinho {
-        background-color: --branco;
+        background-color: var(--branco);
     }
 
     .docinho__titulo {
@@ -43,5 +43,31 @@
     
         100% {
             transform: scale(1.05);
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .docinho {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:-webkit-linear-gradient(left, #fcfcfc, #9b9898);
+        }
+        .docinho__titulo {
+            font-size: 24px;
+            width: 50%;
+            background: none;
+        }
+
+        .docinho__texto {
+            padding-bottom: 2em;
+        }
+
+        .docinho__site {
+            width: 30%;
+        }
+
+        .docinho__descricao {
+            margin-right: 1em;
         }
     }
