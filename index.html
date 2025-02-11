@@ -35,18 +35,39 @@
                     <li class="lista-menu__item"><a href="#" class="lista-menu__link">Aventura</a></li>
                     <li class="lista-menu__item"><a href="#" class="lista-menu__link">RPG</a></li>
                     <li class="lista-menu__item"><a href="#" class="lista-menu__link">Esportes</a></li>
-
                 </ul>
 
-                <a href="#"> <img src="img/botão playstation.png" class="container_tamanho" alt="logo da playstation"> </a>
+                <a href="#"> <img src="img/botão playstation.png" alt="logo da playstation"
+                        class="container_tamanho"></a>
+                <h1 class="container__titulo"><b class="banner__titulo--negrito">Play</b>Station</h1>
+
             </div>
+
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botao">
+                <label for="opções-menu">
+                    <li class="opções__item">categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Luta</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Aventura</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">RPG</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Esportes</a></li>
+                </ul>
+
+                <li class="opções__item"> <a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"> <a href="#" class="opções__link">Minhas Recomendações</a></li>
+            </ul>
+
             <div class="container">
-                <a href="#"><img src="img/botão coração.png" class="container_tamanho" alt="meus favoritos"></a>
+                <a href="#"><img src="img/botão coração.png" class="container_tamanho container__transparente"
+                        alt="meus favoritos"></a>
                 <a href="#"><img src="img/botão sacola.png" class="container_tamanho" alt="sacola de compras"></a>
                 <a href="#"><img src="img/usuário.png" class="container_tamanho" alt="usuário"></a>
             </div>
-        </header>
 
+        </header>
 
         <section class="banner">
             <h2 class="banner__titulo">Ainda sem saber oque jogar?</h2>
@@ -128,7 +149,7 @@
                 </div>
             </div>
 
-            <h2 class="carrossel__titulo">Indicações para sua jogatina</h2>
+            <h2 class="carrossel__titulo">Jogo do ano 2024</h2>
 
             <div class="card_2">
                 <!-- 1 linha -->
@@ -186,23 +207,37 @@
         </section>
 
         <section class="docinho">
-            <h2 class="docinho__titulo">Querendo um docinho pós game!?</h2>
-            <p class="docinho__texto">Conheça este site criado por mim para promover uma excelente confeitaria!!</p>
+            <div class="docinho__descricao">
+                <h2 class="docinho__titulo">Querendo um docinho pós game!?</h2>
+                <p class="docinho__texto">Conheça este site criado por mim para promover uma excelente confeitaria!!</p>
+            </div>
+
             <a href="https://confeitaria-miranda.vercel.app/" class="docinho__site" target="_blank">
                 <img src=".//img/Art-confeitaria.png" alt="Confeitaria Miranda" class="docinho__img">
             </a>
 
-            <hr />
-
-            <footer class="rodape">
-
-                <a href="https://link-apresentacao-jean.vercel.app/index.html" class="criador"  target="_blank">
-                    <h2 class="docinho__texto rodape__titulo"> + Sobre o criador</h2>
-                </a>
-
-            </footer>
-
         </section>
+
+        <hr />
+
+        <footer class="rodape rodape__img-fundo">
+
+            <a href="https://link-apresentacao-jean.vercel.app/index.html" class="criador" target="_blank">
+                <h2 class="docinho__texto rodape__titulo"> + Sobre o criador</h2>
+            </a>
+
+            <ul class="lista-rodape">
+                <li class="lista-rodape__titulo">Redes</li>
+                <li class="lista-rodape__item"><img src=".//img/github (2).png" alt="logo GitHub">
+                    <a href="https://github.com/MirandaJean" class="lista-rodape__link">GitHub</a>
+                </li>
+
+                <li class="lista-rodape__item"><img src=".//img/linkedin (1).png" alt="logo LinKedin">
+                    <a href="https://www.linkedin.com/in/jean-miranda-da-silveira-7b297516b/" class="lista-rodape__link">LinKedin</a>
+                </li>
+            </ul>
+
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
