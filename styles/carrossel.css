@@ -8,6 +8,10 @@
     padding: 1em 0 1em 0;
 }
 
+.swiper-bot{
+    display: none;
+}
+
 .swiper-slide img {
     width: 100%;
     margin: 10px;
@@ -160,4 +164,86 @@ strong {
         width: 50%;
         margin: 2em auto;
     }
+}
+
+@media screen and (min-width: 1328px) {
+    
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+        gap: 15%;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-bot{
+        display: block;
+    }
+
+    .descricao__titulo {
+        width: 110%;
+        font-size: 18px;
+        font-weight:bold ;
+    }
+
+    .descricao__titulo_playstation {
+        color: #000000;
+        -webkit-text-stroke-width: 0.4px;
+        -webkit-text-stroke-color: #ffffff;
+        font-size: 24px;
+    }
+    
+    .descricao__titulo_playstation_bot {
+        color: #000000;
+        -webkit-text-stroke-width: 0.4px;
+        -webkit-text-stroke-color: #ffffff;
+        font-size: 24px;
+        margin: 0.7em 0;
+
+    }
+
+    .descricao__texto {
+        width: 95%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .descricao__imagem {
+        width: 30%;
+        height: 30%;
+        margin-top: 11%;
+        margin-right: 4.8%;
+        border-radius: 16px;
+    }
+
+    .descricao__imagem2{
+        width: 30%;
+        height: 30%;
+        margin-top: 21%;
+        margin-right: 4%;
+        border-radius: 16px;
+    }
+
+    .descricao {
+        margin-right: 1em;
+    }
+
+    .botoes__ancora {
+        display: flex;
+        align-items: center;
+        right: 6.8%;
+        height: 2px;
+    }
+
+    .card, .card_2 {
+        width: 80%;
+        margin: 2em -7em;
+    }
+
 }
