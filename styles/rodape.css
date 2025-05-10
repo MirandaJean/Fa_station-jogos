@@ -28,6 +28,7 @@ hr {
     hr {
         padding: 0.5em;
         margin-top: -1em;
+        background-color: var(--preto);
     }
 
     .rodape {
@@ -35,6 +36,7 @@ hr {
         margin-top: -1em;
         padding: 2em;
         justify-content: space-around;
+        
     }
 
     .rodape__img-fundo {
@@ -44,8 +46,22 @@ hr {
         background-position: bottom;
     }
 
+    .criador__redes {
+        display: flex;
+        gap: 23em;
+    }
+
+    .criador {
+        border-right: 1px solid var(--cinza);
+        padding-right: 2em;
+    }
+
     .lista-rodape {
         display: block;
+        border-left: 1px solid var(--cinza);
+        padding-left: 3em;
+        position: relative;
+        left: -5%;
     }
 
     .lista-rodape__titulo {
@@ -60,10 +76,31 @@ hr {
         align-items: center;
         gap: 0.4em;
         margin-bottom: 15%;
+        
     }
 
     .lista-rodape__link {
         text-decoration: none;
         color: var(--cinza);
     }
+}
+
+@media screen and (min-width: 1328px) {
+    hr {
+        padding: 0.30em;
+        background-color: var(--preto);
+}
+
+.rodape__img-fundo {
+    background-size: 20%;
+}
+
+.criador__redes {
+    display: flex;
+    gap: 19.5em;
+}
+
+.lista-rodape {
+    left: -6%;
+}
 }
