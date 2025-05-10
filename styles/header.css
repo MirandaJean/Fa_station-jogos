@@ -1,4 +1,4 @@
-.header__menu-hamburger {
+.cabecalho__menu-hamburger {
     background-image: url(../img/botão\ menu.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +8,11 @@
     height: 60px;
 }
 
-.header {
+/* .container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburger {
+background-image: url(../img/astrobot.avif);
+} */  /* para alterar a imagem ao ativar o checked */
+
+.cabecalho {
     background-color: var(--azul);
     display: flex;
     justify-content: space-between;
@@ -70,6 +74,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .container__titulo,
@@ -106,7 +114,7 @@
         display: none;
     }
 
-    .header__menu-hamburger {
+    .cabecalho__menu-hamburger {
         display: none;
     }
 
@@ -119,4 +127,39 @@
         display: none;
     }
 
+    .opções__botao:checked ~ .opções__rotulo > .opções__item {
+        background-color: var(--azul-escuro);
+        color: var(--branco);
+    }
+
+    .opções__item {
+        padding: 2em 1em
+    }
+
+    .lista-menu__item:hover {
+        /* background: -webkit-linear-gradient(left, #d3cfcf, #6e6666); */
+        background: -webkit-linear-gradient(left, #6e6666, #d3cfcf, #6e6666);
+        /* background: -webkit-linear-gradient(left, #d3cfcf, #999494, #6e6666); */
+
+    }
+    .lista-menu__item:hover > .lista-menu__link {
+     color: var(--azul-escuro);
+    }
+}
+
+@media screen and (min-width: 1328px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__texto {
+        display: block;
+    }
 }
