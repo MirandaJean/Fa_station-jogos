@@ -18,8 +18,8 @@
 
 
 html {
-    display:none;
-/*       scroll-behavior: smooth; */
+    
+      scroll-behavior: smooth;
   }
 
 body {
@@ -52,6 +52,7 @@ body {
     }
 
     .fundo{
-        height: 100%;
+        display:none;
+/*         height: 100%; */
     }
 }
