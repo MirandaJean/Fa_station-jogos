@@ -52,6 +52,11 @@ body {
         background-size: 100%;
     }
 
+    html {
+    
+      scroll-behavior: none;
+  }
+
     .fundo{
         height: 100%;
         
