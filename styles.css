@@ -18,7 +18,8 @@
 
 
 html {
-      scroll-behavior: smooth;
+    display:none;
+/*       scroll-behavior: smooth; */
   }
 
 body {
