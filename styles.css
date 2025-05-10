@@ -43,7 +43,7 @@ body {
 
 @media screen and (min-width: 1024px) {
     .fundo {
-/*         overflow-y: unset; */
+        overflow-y: unset;
         background-image: url(./img/Fundo\ playstation.webp);
         background-position: center;
         background-attachment: fixed;
@@ -52,6 +52,6 @@ body {
     }
 
     .fundo{
-/*         height: 100%; */
+        height: 100%;
     }
 }
