@@ -44,10 +44,6 @@ hr {
         background-repeat: no-repeat;
         background-size: 32%;
         background-position: bottom;
-        border-right: 1px solid var(--cinza);
-        padding-right: 2em;
-        border-left: 1px solid var(--cinza);
-        padding-left: 3em;
     }
 
     .criador__redes {
