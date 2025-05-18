@@ -95,6 +95,8 @@ hr {
 
 .rodape__img-fundo {
     background-size: 20%;
+    border-right: 1px solid var(--cinza);
+    border-left: 1px solid var(--cinza);
 }
 
 .criador__redes {
