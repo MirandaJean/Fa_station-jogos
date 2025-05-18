@@ -92,15 +92,15 @@ hr {
 }
 
 .rodape__img-fundo {
-    background-size: 16%;
+    background-size: 20%;
 }
 
 .criador__redes {
     display: flex;
-    gap: 21.8em;
+    gap: 19.5em;
 }
 
 .lista-rodape {
-    left: -6.5%;
+    left: -6%;
 }
 }
