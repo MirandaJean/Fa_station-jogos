@@ -97,10 +97,10 @@ hr {
 
 .criador__redes {
     display: flex;
-    gap: 19.5em;
+    gap: 20em;
 }
 
 .lista-rodape {
-    left: -6%;
+    left: -7%;
 }
 }
