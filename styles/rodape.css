@@ -44,10 +44,6 @@ hr {
         background-repeat: no-repeat;
         background-size: 32%;
         background-position: bottom;
-        border-right: 1px solid var(--cinza);
-        padding-right: 25em;
-        border-left: 1px solid var(--cinza);
-        padding-left: 25em;
     }
 
     .criador__redes {
@@ -56,14 +52,14 @@ hr {
     }
 
     .criador {
-/*         border-right: 1px solid var(--cinza);
-        padding-right: 2em; */
+        border-right: 1px solid var(--cinza);
+        padding-right: 2em;
     }
 
     .lista-rodape {
         display: block;
-/*         border-left: 1px solid var(--cinza);
-        padding-left: 3em; */
+        border-left: 1px solid var(--cinza);
+        padding-left: 3em;
         position: relative;
         left: -5%;
     }
