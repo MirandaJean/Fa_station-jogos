@@ -51,15 +51,15 @@ hr {
         gap: 23em;
     }
 
-/*     .criador {
+    .criador {
         border-right: 1px solid var(--cinza);
         padding-right: 2em;
-    } */
+    }
 
     .lista-rodape {
         display: block;
-/*         border-left: 1px solid var(--cinza);
-        padding-left: 3em; */
+        border-left: 1px solid var(--cinza);
+        padding-left: 3em;
         position: relative;
         left: -5%;
     }
@@ -93,8 +93,6 @@ hr {
 
 .rodape__img-fundo {
     background-size: 20%;
-    border-right: 1px solid var(--cinza);
-    border-left: 1px solid var(--cinza);
 }
 
 .criador__redes {
